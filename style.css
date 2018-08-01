@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(2, 128, 144, 0.05);
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  color: rgb(81, 80, 80);
+}
+
+.crop {
+  background-image: url("images/jonggle.png");
+  background-size: 500px;
+  background-position: -193px -98px;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.affiche_film {
+  height: 200px;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.shadow-img {
+  box-shadow: 1px 1px 2px grey;
+}
+
+h1 {
+  color: #05668D;
+  margin: 0px;
+  padding-top: 15px;
+}
+
+h2 {
+ color: #028090;
+ margin: 0;
+}
+
+h3 {
+  color: #445756;
+}
+
+h4 {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+.socials a {
+  display: inline-block;
+  font-size: 30px;
+}
+
+a:hover {
+  color: rgb(81, 80, 80);
+  opacity: 1;
+}
+
+.socials a:hover {
+  transform: scale(1.5);
+}
+
+a {
+  color: rgb(81, 80, 80);
+  opacity: 0.5;
+}
+
+.block {
+  width: 35%;
+  margin: auto;
+  background-color: rgb(2, 128, 144, 0.1);
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgb(2, 128, 144, 0.4);
+  padding: 10px;
+  margin-top : 10px;
+  margin-bottom: 10px;
+}
+
+.summary {
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  padding: 20px;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0px;
+  height: 50px;
+}
+
+.socials {
+  height: 70px;
+}
+
+.movie-card {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+    border-radius: 3px;
+    background-color: rgb(2, 128, 144, 0.05);
+    box-shadow: 1px 1px 1px rgb(2, 128, 144, 0.15);
+}
+
+.affiche {
+  width: 50%;
+  text-align: center;
+}
